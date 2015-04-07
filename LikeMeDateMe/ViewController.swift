@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.addSubview(CardView(frame: CGRect(x: 100.0, y: 150.0, width: 150, height: 100)))
         // Do any additional setup after loading the view, typically from a nib.
     }
 
